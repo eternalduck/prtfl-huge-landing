@@ -1,0 +1,16 @@
+{
+  "name": "cmpl-kp-land",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    //npm run scss
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch css/scss -o css --output-style expanded --indent-type tab --indent-width 1 --source-map true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

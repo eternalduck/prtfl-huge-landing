@@ -1,0 +1,538 @@
+.wsize {
+    font-size: 95%;
+    color: lime;
+    position: fixed;
+    top: 73px;
+    right: 5px;
+    text-shadow: 1px 1px 2px #000;
+    z-index: 999999
+}
+
+.wsize2 {
+    font-size: 95%;
+    color: #dfcd02;
+    position: fixed;
+    top: 55px;
+    right: 5px;
+    text-shadow: 1px 1px 2px #000;
+    z-index: 999999
+}
+
+
+
+
+.container {
+    outline: 1px dashed #ccc !important
+}
+.content {
+    outline: 1px dotted #555 !important
+}
+.row {
+    outline: 1px dotted black !important
+}
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12 {
+    outline: 1px dotted blue 
+}
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+    outline: 1px dotted teal 
+}
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+    outline: 1px dotted green 
+}
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+    outline: 1px dotted lime 
+}
+
+
+
+
+/*MIN-w*/
+/*20em*/
+/*@media (min-width: 320px) {*/
+  body:after {
+        content: "min-width: 320 - mob";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: magenta;
+        position: fixed;
+        top: 30px;
+        right: 5px;
+        z-index: 999999
+    }
+/*}*/
+
+/*32.5em*/
+@media (min-width: 520px) {
+  body:after {
+        content: "min-width: 520 - tablet - sm";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: magenta;
+        position: fixed;
+        top: 30px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+/*40em*/
+/*@media (min-width: 640px) {
+  body:after {
+        content: "min-width: 640px - tablet - sm";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #43c7f2;
+        position: fixed;
+        top: 30px;
+        right: 5px;
+        z-index: 999999
+    }
+}*/
+
+/*48em*/
+@media (min-width: 768px) {
+  body:after {
+        content: "min-width: 768 - tablet - md";
+        font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #43c7f2;
+        position: fixed;
+        top: 30px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+
+/*60em*/
+@media (min-width: 960px) {
+  body:after {
+        content: "min-width: 960 - desk";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: magenta;
+        position: fixed;
+        top: 30px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+/*61.25em*/
+/*@media (min-width: 980px) {
+  body:after {
+        content: "min-width: 980px - desk ";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #43c7f2;
+        position: fixed;
+        top: 30px;
+        right: 5px;
+        z-index: 999999
+    }
+}*/
+
+/*73.75em*/
+@media (min-width: 1180px) {
+  body:after {
+        content: "min-width: 1180";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #43c7f2;
+        position: fixed;
+        top: 30px;
+        right: 5px;
+        z-index: 99999999
+    }
+}
+
+/*MAX-w*/
+/*@media (max-width: 1200px) {
+    body:before {
+        content: "max-width: 1200px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #21EB11;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 99999999
+    }
+}
+@media (max-width: 1024px) {
+    body:before {
+        content: "max-width: 1024px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #21EB11;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+@media (max-width: 980px) {
+    body:before {
+        content: "max-width: 980px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #21EB11;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+@media (max-width: 767px) {
+    body:before {
+        content: "max-width: 767px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #21EB11;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+@media (max-width: 640px) {
+    body:before {
+        content: "max-width: 640px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #21EB11;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+@media (max-width: 480px) {
+    body:before {
+        content: "max-width: 480px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #21EB11;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+@media (max-width: 320px) {
+    body:before {
+        content: "max-width: 320px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #21EB11;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 320px) {
+  header:before {
+        content: "container: 300px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+@media (min-width: 380px) {
+  header:before {
+        content: "container: 360px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+  
+}
+@media (min-width: 420px) {
+  header:before {
+        content: "container: 400px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 480px) {
+  header:before {
+        content: "container: 460px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 580px) {
+  header:before {
+        content: "container: 570px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 640px) {
+  header:before {
+        content: "container: 620px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 680px) {
+  header:before {
+        content: "container: 660px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 720px) {
+  header:before {
+        content: "container: 690px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 768px) {
+  header:before {
+        content: "container: 728px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 790px) {
+  header:before {
+        content: "container: 750px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 840px) {
+  header:before {
+        content: "container: 800px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+
+@media (min-width: 910px) {
+  header:before {
+        content: "container: 870px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+
+@media (min-width: 960px) {
+  header:before {
+        content: "container: 935px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 981px) {
+  header:before {
+        content: "container: 940px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 1000px) {
+  header:before {
+        content: "container: 960px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 1050px) {
+  header:before {
+        content: "container: 1010px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 1100px) {
+  header:before {
+        content: "container: 1060px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+
+@media (min-width: 1150px) {
+  header:before {
+        content: "container: 1110px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+
+@media (min-width: 1200px) {
+  header:before {
+        content: "container: 1170px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+
+@media (min-width: 1300px) {
+  header:before {
+        content: "container: 1230px";
+         font-size: 95%;
+        text-shadow: 1px 1px 2px #000;
+        color: #2bc0ce;
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        z-index: 999999
+    }
+}
+*/
